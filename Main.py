@@ -151,3 +151,7 @@ while True:
             except "sudo -s" in sudoCMD:
                 ignore()
             warnings.filterwarnings("ignore")
+            if "dir" in sudoCMD:
+                     os.system(f"{sudoCMD}"
+            if "cp " in sudoCMD:
+                      os.system(f"{sudoCMD}")
